@@ -1,2 +1,2 @@
-# soccer_ball_shop
+# Soccer Ball Shop
  E-Commerce platform for Soccer Ball Shop
