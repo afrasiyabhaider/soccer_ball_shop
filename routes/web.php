@@ -15,3 +15,8 @@ Route::get('/', function () {
     return view('site.layout.app');
     // return view('welcome');
 });
+/**
+ * Site Routes
+ *
+ */
+Route::get('home', 'SiteController@index');
