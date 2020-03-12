@@ -59,10 +59,12 @@
                     </div> --}}
                         <nav class="navbar navbar-expand-lg fixed-top">
                             <div class="container">
-                                <a href="{{url('home')}}" title="" rel="home" class="nav-brand">
+                                <a href="{{url('home')}}" rel="home" class="nav-brand">
                                     <img src="{{asset('site/assets/images/logo.png')}}" class="img-fluid" alt="Logo"  width="100px"/>
                                 </a>
-                                <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+                                <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right text-light">
+                                    <i class="fa fa-bars"></i>
+                                </button>
 
                                 <div id="navbarSupportedContent" class="collapse navbar-collapse">
 
